@@ -10,8 +10,8 @@ export default function TrekHeader({
   reviewCount?: number;
 }) {
   return (
-    <div>
-      <h1 className="text-2xl font-semibold text-slate-900">{title}</h1>
+    <div className="mb-4">
+      <h1 className="text-2xl font-semibold">{title}</h1>
 
       <div className="mt-2 flex flex-wrap items-center gap-2">
         <span className="inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">
